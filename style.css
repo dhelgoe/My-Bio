@@ -1,0 +1,163 @@
+.nav{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    font-size: 40px;
+    color: rgb(243, 237, 237);
+}
+
+.belownav{
+    width:100%;
+    height: 100px;
+    background-color: brown;
+}
+
+.active{
+    color: rgb(146, 59, 59)
+
+}
+
+.name{
+    font-size: 40px;
+    margin: 20px;
+
+
+}
+
+li{
+    display: inline;
+    padding: 4px;
+
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    color: rgb(2, 2, 2);
+}
+
+body{
+    background-color: gray;
+}
+
+aside{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: left;
+    font-size: 25px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+
+  img {
+    float: middle;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+    border: 20px lightblue;
+}
+
+.imgcontainer{
+    background-color: red;
+}
+
+.ocean{
+    width: 100%;
+    height: 250px;
+    border: 2px solid blue;
+    background: url(./Ocean.jpg);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: flex-end;
+    justify-content: start;
+
+
+}
+
+
+.ocean h2{
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.smallbox{
+    width: 50%;
+    height: 250px;
+    border: 2px solid blue;
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    }
+.smallbox h2{
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+}
+
+.camping{
+    background: url(./Camp.jfif)
+}
+
+.dog{
+    background: url(./Dog.jpg)
+}
+
+.golf{
+    background: url(./Golf.jfif)
+}
+
+.Gaming{
+    background: url(./game.jpg)
+}
+  
+.samerow img{
+    width:50%;
+    border: 2px solid blue
+
+} 
+
+.samerow {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 992px) {
+    .card {
+      width: 50%;
+      display: flex;
+      
+    }
+    
+    header {
+      background:gray;
+    }
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+    header {
+      background: #606468;
+    }
+  }
