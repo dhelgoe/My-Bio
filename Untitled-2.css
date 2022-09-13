@@ -139,3 +139,25 @@ aside{
     display: flex;
     flex-direction: row;
 }
+
+@media screen and (max-width: 992px) {
+    .card {
+      width: 50%;
+      display: flex;
+      
+    }
+    
+    header {
+      background:gray;
+    }
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+    header {
+      background: #606468;
+    }
+  }
